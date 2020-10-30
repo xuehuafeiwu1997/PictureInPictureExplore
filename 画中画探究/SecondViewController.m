@@ -14,6 +14,7 @@
 @property (nonatomic, strong) AVPlayer *player;
 @property (nonatomic, strong) PlayerView *playerView;
 @property (nonatomic, strong) UIButton *playButton;
+@property (nonatomic, strong) UIButton *pauseButton;
 
 @end
 
@@ -29,11 +30,18 @@
     [self.view addSubview:self.playerView];
     self.playButton.frame = CGRectMake((self.view.bounds.size.width - 100) / 2, 320, 100, 50);
     [self.view addSubview:self.playButton];
+    self.pauseButton.frame = CGRectMake((self.view.bounds.size.width - 100) / 2, 400, 100, 50);
+    [self.view addSubview:self.pauseButton];
 }
 
 - (void)playVideo {
     NSLog(@"点击开始播放视频");
     [self.playerView.player play];
+}
+
+- (void)pauseVideo {
+    NSLog(@"暂停播放视频");
+    [self.playerView.player pause];
 }
 
 - (AVPlayer *)player {
@@ -62,6 +70,17 @@
     [_playButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [_playButton addTarget:self action:@selector(playVideo) forControlEvents:UIControlEventTouchUpInside];
     return _playButton;
+}
+
+- (UIButton *)pauseButton {
+    if (_pauseButton) {
+        return _pauseButton;
+    }
+    _pauseButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    [_pauseButton setTitle:@"暂停" forState:UIControlStateNormal];
+    [_pauseButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [_pauseButton addTarget:self action:@selector(pauseVideo) forControlEvents:UIControlEventTouchUpInside];
+    return _pauseButton;
 }
 
 @end
