@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B67C6459254BAE30003B874D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C6458254BAE30003B874D /* SecondViewController.m */; };
+		B67C645F254BB13B003B874D /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C645E254BB13B003B874D /* PlayerView.m */; };
 		B6D99620254A59C500EBB1DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D9961F254A59C500EBB1DC /* AppDelegate.m */; };
 		B6D99626254A59C500EBB1DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D99625254A59C500EBB1DC /* ViewController.m */; };
 		B6D9962B254A59CC00EBB1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D9962A254A59CC00EBB1DC /* Assets.xcassets */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B67C6457254BAE30003B874D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B67C6458254BAE30003B874D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B67C645D254BB13B003B874D /* PlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		B67C645E254BB13B003B874D /* PlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
 		B6D9961B254A59C500EBB1DC /* 画中画探究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画中画探究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D9961E254A59C500EBB1DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6D9961F254A59C500EBB1DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +119,10 @@
 				B6D9967E254AB61300EBB1DC /* MainViewController.m */,
 				B6D99683254ABD1200EBB1DC /* FirstViewController.h */,
 				B6D99684254ABD1200EBB1DC /* FirstViewController.m */,
+				B67C6457254BAE30003B874D /* SecondViewController.h */,
+				B67C6458254BAE30003B874D /* SecondViewController.m */,
+				B67C645D254BB13B003B874D /* PlayerView.h */,
+				B67C645E254BB13B003B874D /* PlayerView.m */,
 				B6D9962A254A59CC00EBB1DC /* Assets.xcassets */,
 				B6D9962C254A59CC00EBB1DC /* LaunchScreen.storyboard */,
 				B6D9962F254A59CC00EBB1DC /* Info.plist */,
@@ -267,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67C6459254BAE30003B874D /* SecondViewController.m in Sources */,
+				B67C645F254BB13B003B874D /* PlayerView.m in Sources */,
 				B6D99626254A59C500EBB1DC /* ViewController.m in Sources */,
 				B6D99620254A59C500EBB1DC /* AppDelegate.m in Sources */,
 				B6D99685254ABD1200EBB1DC /* FirstViewController.m in Sources */,

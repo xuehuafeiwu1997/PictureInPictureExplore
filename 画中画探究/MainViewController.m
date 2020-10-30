@@ -8,6 +8,7 @@
 #import "MainViewController.h"
 #import "ViewController.h"
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface MainViewController ()
 
@@ -25,8 +26,9 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    FirstViewController *vc = [[FirstViewController alloc] init];
+//    FirstViewController *vc = [[FirstViewController alloc] init];
 //    ViewController *vc = [[ViewController alloc] init];
+    SecondViewController *vc = [[SecondViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
