@@ -14,6 +14,8 @@
 		B6D99631254A59CC00EBB1DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D99630254A59CC00EBB1DC /* main.m */; };
 		B6D9963B254A59CD00EBB1DC /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D9963A254A59CD00EBB1DC /* _____Tests.m */; };
 		B6D99646254A59CD00EBB1DC /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D99645254A59CD00EBB1DC /* _____UITests.m */; };
+		B6D9967F254AB61300EBB1DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D9967E254AB61300EBB1DC /* MainViewController.m */; };
+		B6D99685254ABD1200EBB1DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D99684254ABD1200EBB1DC /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		B6D99641254A59CD00EBB1DC /* 画中画探究UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画中画探究UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D99645254A59CD00EBB1DC /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		B6D99647254A59CD00EBB1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D9967D254AB61300EBB1DC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B6D9967E254AB61300EBB1DC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B6D99683254ABD1200EBB1DC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B6D99684254ABD1200EBB1DC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 				B6D9961F254A59C500EBB1DC /* AppDelegate.m */,
 				B6D99624254A59C500EBB1DC /* ViewController.h */,
 				B6D99625254A59C500EBB1DC /* ViewController.m */,
+				B6D9967D254AB61300EBB1DC /* MainViewController.h */,
+				B6D9967E254AB61300EBB1DC /* MainViewController.m */,
+				B6D99683254ABD1200EBB1DC /* FirstViewController.h */,
+				B6D99684254ABD1200EBB1DC /* FirstViewController.m */,
 				B6D9962A254A59CC00EBB1DC /* Assets.xcassets */,
 				B6D9962C254A59CC00EBB1DC /* LaunchScreen.storyboard */,
 				B6D9962F254A59CC00EBB1DC /* Info.plist */,
@@ -259,7 +269,9 @@
 			files = (
 				B6D99626254A59C500EBB1DC /* ViewController.m in Sources */,
 				B6D99620254A59C500EBB1DC /* AppDelegate.m in Sources */,
+				B6D99685254ABD1200EBB1DC /* FirstViewController.m in Sources */,
 				B6D99631254A59CC00EBB1DC /* main.m in Sources */,
+				B6D9967F254AB61300EBB1DC /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
